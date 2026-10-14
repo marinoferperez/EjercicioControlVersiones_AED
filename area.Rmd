@@ -17,3 +17,11 @@ area <- pi * r^2
 
 area
 ```
+#### **ÁREA DE UN CUADRADO**
+
+```{r}
+lado <- 3
+area_cuadrado <- lado^2
+
+area_cuadrado
+```
