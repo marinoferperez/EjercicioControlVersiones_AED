@@ -36,3 +36,13 @@ area_triangulo <- function(b, h) {
 
 area_triangulo(4, 3)
 ```
+
+#### **ÁREA DE UN RECTÁNGULO**
+
+```{r}
+area_rectangulo <- function(L, l) {
+  return(L * l)
+}
+
+area_rectangulo(5, 3)
+```
