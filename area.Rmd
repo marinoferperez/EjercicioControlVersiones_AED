@@ -1,0 +1,19 @@
+---
+title: "Areas"
+author: "Marino Fernández Pérez"
+output: html_document
+date: "2026-10-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### **ÁREA DE UN CÍRCULO**
+
+```{r}
+r <- 0.5
+area <- pi * r^2
+
+area
+```
