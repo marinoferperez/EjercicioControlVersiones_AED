@@ -17,6 +17,7 @@ area <- pi * r^2
 
 area
 ```
+
 #### **ÁREA DE UN CUADRADO**
 
 ```{r}
@@ -24,4 +25,14 @@ lado <- 3
 area_cuadrado <- lado^2
 
 area_cuadrado
+```
+
+#### **ÁREA DE UN TRIÁNGULO**
+
+```{r}
+area_triangulo <- function(b, h) {
+  return(b * h / 2)
+}
+
+area_triangulo(4, 3)
 ```
